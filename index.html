@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Siguranța Online</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--aici este un comentariu-->
+	<link rel="shortcut icon" type="image/x-icon" href="images/logooo.png" />
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="https://use.fontawesome.com/767155eaee.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body onload="getYear()">
+
+	<div class="header">
+		<div class="logo">
+			<img src="images/output.png" alt="Logo" />
+		</div>
+		<div class="nav" id="myNav">
+			<a href="#" onclick="hideMenu()">Siguranța Online</a>
+			<a href="#about" onclick="hideMenu()">Despre</a>
+			<a href="#products" onclick="hideMenu()">Riscuri</a>
+			<a href="#contacts" onclick="hideMenu()">Contacte</a>
+
+			<a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class="fa fa-bars"></i></a>
+		</div>
+	</div>
+	<!--slider-->
+
+	<div class="slideshow-container">
+		<div class="slide anim">
+			<div class="numbertext">1 / 4</div>
+			<img src="images/imag 1.jpg">
+			<div class="text">Te așteptăm oricând cu o întrebare </div>
+		</div>
+		<div class="slide anim">
+			<div class="numbertext">2 / 4</div>
+			<img src="images/imag 2.jpg">
+			<div class="text">Siguranța este mereu pe primul loc...</div>
+		</div>
+		<div class="slide anim">
+			<div class="numbertext">3 / 4</div>
+			<img src="images/imag 3.jpg">
+			<div class="text">Chiar și viața...</div>
+		</div>
+		<div class="slide anim">
+			<div class="numbertext">4 / 4</div>
+			<div class="orar">
+				<h2>ORAR</h2>
+				<h3>Luni - Duminică:</h3>
+				<h3>00:00-23:59</h3>
+			</div>
+			<div class="text"> Cybercor se va afla în incinta UTM</div>
+		</div>
+	</div>
+
+	<!--despre produse-->
+	<hr id="about" />
+	<br>
+	<div class="about">
+		<h1></h1>
+		<i class="font-awesome"></i>
+		<div class="main-paragraph text-paragraph">
+			<p>Nimic din ce publici pe Internet nu vei mai putea şterge definitiv. Orice comentariu sau fotografie, cu
+				un singur click, poate fi salvat de alte persoane în calculatoarele lor, apoi postat pe alte pagini web
+				fără ca tu să mai poţi controla utilizarea şi distribuirea acestei informaţii. Asta înseamnă că oricare
+				din selfie-urile tale ar putea apărea primul în lista de căutări atunci când cineva va vrea să afle mai
+				multe despre tine. Poate fi vorba despre un prieten pe care ţi l-ai făcut recent sau viitorul tău
+				angajator, înainte de primul tău interviu de angajare.</p>
+		</div>
+	</div>
+	<!--produsele-->
+	<hr id="products" />
+	<br>
+	<div class="products">
+		<div class="description_prod">
+			<h1>Riscurile</h1>
+			<p>Cele mai solicitate întrebări de către clienții noștri...</p>
+		</div>
+		<div class="cards_prod">
+			<div class="card">
+				<a href="pages/cappuccino.html">
+					<img src="images/securitate-online (1).jpg" alt="cappuccino" class="photo_prod" />
+					<h3>Viruși</h3>
+					<div class="product-text">
+						<p>Des solicitat de oameni...</p>
+					</div>
+				</a>
+			</div>
+			<div class="card">
+				<a href="pages/latte.html">
+					<img src="images/siguranta.jpg" alt="latte" class="photo_prod" />
+					<h3>Blocare mesaje</h3>
+					<div class="product-text">
+						<p>Des întrebate de copii...</p>
+					</div>
+				</a>
+			</div>
+			<div class="card">
+				<a href="pages/espresso.html">
+					<img src="images/Skype_Picture_2023_12_22T06_51_56_743Z.png" alt="espresso" class="photo_prod" />
+					<h3>Amenințări</h3>
+					<div class="product-text">
+						<p>Des solicitat de maturi...</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--contactele-->
+	<hr id="contacts" />
+	<br>
+	<div class="contacts">
+		<h2>Cum ne găsiți?</h2>
+		<div class="coord">
+			<div class="blok_coord">
+				<div>
+					<span class="ico1"><i class="fa fa-map-marker"></i></span>
+				</div>
+				<div class="txt">
+					<p>strada Bucuriei 77</p>
+				</div>
+			</div>
+			<div class="blok_coord">
+				<div>
+					<span class="ico"><i class="fa fa-at"></i></span>
+				</div>
+				<div class="txt">
+					<p>time@gmail.com</p>
+				</div>
+			</div>
+			<div class="blok_coord">
+				<div>
+					<span class="ico"><i class="fa fa-phone"></i></span>
+				</div>
+				<div class="txt">
+					<p>033778899</p>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+
+			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.8783094037854!2d28.865478674437135!3d47.06223742541248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ce00125f907%3A0xfc2e5ee00a6d3d6a!2sTechnical%20University%20of%20Moldova!5e0!3m2!1sen!2s!4v1729747072691!5m2!1sen!2s"
+				width="95%" height="250" frameborder="0" allowfullscreen=""></iframe>
+		</div>
+	</div>
+	<!--subsolul paginii-->
+	<div class="footer">
+		<h3><span class="copy">&copy;</span> Copy <span id="year"></span></h3>
+		<p>author@mail.com, 077668899</p>
+	</div>
+
+	<script src="js/script_slider.js"></script>
+</body>
+
+</html>
